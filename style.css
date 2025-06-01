@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+nav {
+  background-color: #004080;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 50px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*Body index*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.overskrift-seksjon {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Overskrift {
+  font-size: 2.5rem;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+}
+
+.Info {
+  padding: 25px;
+  margin-top: 35px;
+  max-width: 600px;
+  background-color: white;
+  text-align: center;
+}
+
+
+.bilde1{
+  height: 600px;
+  width: 300px;
+  border: solid black 1px;
+  background-image: url(./bilder/simen.jpg);
+}
+
+.bilde2{
+  height: 600px;
+  width: 200px;
+  border: solid black 1px;
+  background-image: url(./bilder/simen.jpg);
+}
+
+.innhold{
+  display: flex;
+  justify-content: center;
+  gap: 100px;               
+  padding: 20px;
+  flex-wrap: wrap; 
+}
+
+/*Body Fag */
+
+.fagliste{
+
+}
+
+.Liste{
+  background-color: gray;
+}
+
+.Lærere{
+  margin-top: 50px;
+  border: black solid 1px;
+  width: 1600px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap; 
+  
+}
+
+
+.henrik{
+width: 400px;
+height: 400px;
+background-repeat: no-repeat;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roy{
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carlos{
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  background-repeat: no-repeat;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serdar{
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Kontakt */
+
+
+.kontakt2{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+video{
+  width: 1500px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

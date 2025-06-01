@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+
+main {
+ padding-left: 10px;
+
+}
+
+nav {
+  background-color: #004080;
+  padding: 10px 20px;
+} 
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.startmedie, .startprog, .starttekno, .startyff{
+  border: black solid 1px;
+  background-color: lightgray;
+  padding-left: 20px;
+}
+
+.Tekstinnhold{
+  margin-left: 10px;
+}
