@@ -15,13 +15,13 @@ Dag 3
 - Testet nettsiden i nettleser
 
 Dag 4
-- La inn videofiler og lærte hvordan man bruker `<video>`-tag
+- La inn videofiler og lærte hvordan man bruker video tag
 - Sentret bilder og forbedret layout
 - Oppdaterte GitHub-repo med nye filer
 
 Dag 5
 - Ryddet opp i kode og mapper
-- Skrev ferdig `README.md` med arbeidslogg
+- Skrev ferdig readme fil med arbeidslogg
 
 Dag 6
 - Så over nettsiden for ting jeg kanskje ikke likte.
