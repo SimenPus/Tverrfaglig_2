@@ -1,3 +1,9 @@
+* {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    /* background: #f9f9f9; */
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -31,7 +37,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 20px;
+  padding: 40px 20px 0px 20px;
 }
 
 .overskrift-seksjon {
@@ -44,17 +50,19 @@ main {
 .Overskrift {
   font-size: 2.5rem;
   text-align: center;
-  border: 1px solid black;
+  
   padding: 10px;
-  background-color: white;
+  /* background-color: white; */
 }
 
 .Info {
-  padding: 25px;
+  padding: 25px 20px 0 20px;
   margin-top: 35px;
-  max-width: 600px;
-  background-color: white;
+  max-width: 400px;
+  /* background-color: white; */
   text-align: center;
+  justify-content: center;
+  /* margin-left: 125px; */
 }
 
 
@@ -67,7 +75,7 @@ main {
 
 .bilde2{
   height: 600px;
-  width: 200px;
+  width: 300px;
   border: solid black 1px;
   background-image: url(./bilder/simen.jpg);
 }
@@ -76,8 +84,8 @@ main {
   display: flex;
   justify-content: center;
   gap: 100px;               
-  padding: 20px;
-  flex-wrap: wrap; 
+  /* padding: 20px; */
+  /* flex-wrap: wrap;  */
 }
 
 /*Body Fag */
@@ -92,7 +100,7 @@ main {
 
 .Lærere{
   margin-top: 50px;
-  border: black solid 1px;
+  
   width: 1600px;
   height: 400px;
   display: flex;
@@ -122,7 +130,7 @@ background-repeat: no-repeat;
 .carlos{
   width: 400px;
   height: 400px;
-  background-color: yellow;
+  
   background-repeat: no-repeat;
    display: flex;
   justify-content: center;
